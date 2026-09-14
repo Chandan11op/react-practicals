@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #eef2f7;
+  padding: 30px;
+}
+
+.student-container {
+  width: 95%;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.student-title {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th {
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+  text-transform: uppercase;
+}
+
+.student-table td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.student-table tr:hover {
+  background: #dbeafe;
+  transition: 0.3s;
+}
+
+.student-name {
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.active {
+  background: #16a34a;
+}
+
+.inactive {
+  background: #dc2626;
+}
+
+.course-badge {
+  display: inline-block;
+  margin: 3px;
+  padding: 6px 10px;
+  background: #2563eb;
+  color: white;
+  border-radius: 15px;
+  font-size: 12px;
+}
