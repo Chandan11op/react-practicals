@@ -1,4 +1,3 @@
-/* Simple styling for Practical submission */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -16,7 +15,6 @@ body {
   border-radius: 6px;
 }
 
-
 button {
   padding: 8px 16px;
   margin: 4px;
@@ -32,28 +30,10 @@ button:hover {
   background-color: #0056b3;
 }
 
-input {
-  padding: 8px 10px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .card {
   border: 1px solid #ddd;
   padding: 15px;
   margin-top: 15px;
   border-radius: 4px;
   background-color: #fafafa;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 8px;
 }

@@ -1,9 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 
-// 1. Create Theme Context
 const ThemeContext = createContext();
 
-// 2. Theme Provider Component
 function ThemeProvider({ children }) {
   const [theme, setTheme] = useState('light');
 
@@ -18,7 +16,6 @@ function ThemeProvider({ children }) {
   );
 }
 
-// 3. Child Component consuming Context for Theme Toggle
 function ThemeToggle() {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
@@ -31,7 +28,6 @@ function ThemeToggle() {
   );
 }
 
-// 4. Child Component consuming Context for Profile Card Styling
 function ProfileCard() {
   const { theme } = useContext(ThemeContext);
   const isDark = theme === 'dark';
@@ -74,5 +70,4 @@ function App() {
     </ThemeProvider>
   );
 }
-
 export default App;

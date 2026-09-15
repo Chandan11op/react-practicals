@@ -7,22 +7,14 @@
   --card-bg: rgba(255, 255, 255, 0.08);
   --card-border: rgba(255, 255, 255, 0.15);
   --shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-
   font-family: "Poppins", "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color: var(--text);
   background: linear-gradient(135deg, #0f172a, #1e293b, #312e81);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -95,39 +87,4 @@ p {
 
 .child p {
   color: #e2e8f0;
-}
-
-button {
-  margin-top: 20px;
-  padding: 12px 28px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.4rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  .parent {
-    padding: 25px;
-  }
-
-  .child {
-    padding: 20px;
-  }
 }

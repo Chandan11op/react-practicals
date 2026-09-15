@@ -1,6 +1,4 @@
 import React from 'react';
-
-// Child component receiving user details via props
 function ProfileCard(props) {
   return (
     <div className="card">
@@ -15,7 +13,6 @@ function ProfileCard(props) {
   );
 }
 
-// Parent App component passing props to ProfileCard
 function App() {
   return (
     <div className="container">

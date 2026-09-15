@@ -62,9 +62,3 @@ h1 {
 .card button:hover {
   background: #555;
 }
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
